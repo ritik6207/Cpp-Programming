@@ -1,0 +1,15 @@
+Polymorphism:-
+=> One name and Multiple forms.
+//eg. Function overloading, operator overloading
+//eg. Virtual Function
+
+polymorphism=> polymorphism combine of two word "poly" that mean 'many' and "morph" that mean 'forms'
+
+Polymorphism in C++ can be of two Type:
+1. Compile time Polymorphism:-
+  Compile time polymorphism in c++ is achevied using:
+    <a> -- Function overloading
+    <b> -- operator overloading
+2. Run time polymorphism:-
+  Run time polymorphism in c++ is achevied using:
+    <a> -- Virtual Function
