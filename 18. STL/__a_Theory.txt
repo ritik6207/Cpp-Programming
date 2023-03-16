@@ -1,0 +1,5 @@
+STL = Standered Template Labiriry
+Conponent of STL:-
+    1. Containner  
+    2. Algorithms  =>(Shorting, Searching and read Data Structure)
+    3. Iterator    
