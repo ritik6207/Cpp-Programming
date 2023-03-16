@@ -1,0 +1,91 @@
+// Overview
+/* Reusability is a very important feature of OOPs
+In C++ we can reuse a class and add additional features to it
+Reusing classes save time and money
+Reusing already tested and debugged class will save a lot of effort of developing and debugging the same thing again.
+*/
+
+// What is inheritance in C++
+/* The concept of Reusabillity in C++ is supported using inheritace.
+We can reuse the properties of an existing class by inheritanceing from it.
+The exsting class ea called as the BASE Class
+The new class which is  inheritance is called as the DERIVED Class
+Reusing classes save time and money.
+Therer are different type of inheritance in C++
+*/
+
+// Form of inheritance in C++
+/* Single level Inheritance
+ Multi level Inheritace
+ Multiple Inheritance
+ Hierarchical Inheritance
+ Hybrid Inheritance
+*/
+
+/*  **Single Level Inheritance**
+=> A derive class with only one Base class.
+
+                      class A  (Base class)
+                         |
+                         |
+                         v
+                      class B (Derive class)
+
+*/
+
+/*  **Multi Level Inheritance
+=> Deriving a class from already dereved class
+
+                      class A  (Base class)
+                         |
+                         |
+                         v
+                      class B (Derive class)
+                         |
+                         |
+                         v
+                      class C (Already in Derive class)
+
+
+*/
+
+/*  **Multiple Inheritance**
+=>A derive class with more than one Base class
+
+               class A          Class B
+                   |             |                 
+                   |             |                
+                   v             v
+                      class C
+*/
+
+/*   **Hierarchical Inheritance**
+=> Several derive classes form a single base class
+              
+                        class C          
+                   ^             ^
+                   |             |                 
+                   |             |                                       
+                  Class A       class B
+
+*/
+
+
+/*  **Hybrid Inheritance**
+=> Hybrid inheritance is a combination of multiple inheritance and multi Level incheritance
+=> A class is derived from two classes as in multiple inheritance.
+=> However, one of the parent classses is not a base calss
+
+                          
+                       class A                      
+                   |             |                 
+                   |             |   
+                   v             v   
+                 Class B       class C
+                   |             |                  
+                   |             |   
+                   v             v   
+                       class D        
+
+*/
+
